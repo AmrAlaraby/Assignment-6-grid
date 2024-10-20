@@ -64,12 +64,28 @@
         grid-column-end: 5;
         grid-row-start: 1;
         grid-row-end: 2;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
    
 }
 @media (max-width: 479px) {
     .grid {
         grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+    }
+    .div-block-num2 {
+        padding-top: 40px;
+        flex-direction: column;
+    }
+    .div-block-num2-1{
+        width: 90%;
+    }
+    .image {
+        position: relative;
+        left: -4%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
     }
     .div-block-num3 {
         grid-column-start: 1;
